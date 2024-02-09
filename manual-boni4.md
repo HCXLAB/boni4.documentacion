@@ -25,17 +25,17 @@
     - [Procesar Real](#procesar-real)
   - [Budget](#budget)
     - [Metas](#metas)
-    - [Realizar](#realizar)
+    - [Realizar](#entry-budget)
     - [Aprobar](#aprobar)
     - [Consolidar](#consolidar)
   - [Proyectados](#proyectados)
     - [Metas](#metas-1)
-    - [Realizar](#realizar-1)
+    - [Realizar](#entry-proyection)
     - [Aprobar](#aprobar-1)
     - [Consolidar](#consolidar-1)
   - [Mejor Proyectado](#mejor-proyectado)
     - [Metas](#metas-2)
-    - [Realizar](#realizar-2)
+    - [Realizar](#entry-bp)
     - [Aprobar](#aprobar-2)
     - [Consolidar](#consolidar-2)
   - [Reportes](#reportes)
@@ -308,50 +308,425 @@ Esto puede ser especialmente útil en casos tales como en los que MMS tiene carg
 ## Budget
 ![Alt text](imagenes/03-00-menu-budget.png)
 
-### Metas
-
+<!-- ### Metas
+-->
 
 
 ### Realizar
 
-### Aprobar
+En la sección, los usuarios tienen la oportunidad de llevar a cabo la proyección anual de la inversión para el próximo año. Este paso es crucial en el ciclo de planificación financiera y estratégica de la agencia, permitiendo a los equipos detallar y ajustar las expectativas de inversión por cliente, medio y soporte.
+
+![Alt text](imagenes/03-02-menu-budget-realizar.png)
+
+A continuación, describimos cada sección del contenido del realizar 'budget'.
+
+#### Filtros
+
+##### Periodo
+
+![Alt text](imagenes/03-02-01-realizar-filtro-periodo.png)
+
+Este filtro te permite cambiar el perído de análisis de las proyecciones.
+
+##### Version
+
+![Alt text](imagenes/03-02-01-realizar-filtro-version.png)
+
+Este filtro te permite alternar entre distintas versiones de las proyecciones realizadas. Al utilizarlo, podrás comparar diferentes escenarios o revisiones de tus datos, facilitando el análisis de cómo han evolucionado tus proyecciones a lo largo del tiempo.
+
+##### Clientes
+
+![Alt text](imagenes/03-02-01-realizar-filtro-clientes.png)
+
+Este filtro te permite seleccionar un cliente específico de tu cartera. 
+
+
+##### Medios
+
+![Alt text](imagenes/03-02-01-realizar-filtro-medio.png)
+
+Este filtro te permite realizar una selección múltiple de los medios asignados a los clientes en tu cartera.
+
+##### Mes
+
+![Alt text](imagenes/03-02-01-realizar-filtro-medio.png)
+
+Este filtro te permite seleccionar uno o varios meses específicos para que solo aparezcan en la cuadrícula de proyección.
+
+##### Distribución
+
+![Alt text](imagenes/03-02-01-realizar-filtro-distribucion.png)
+
+Este filtro te permite definir cómo se distribuye el valor proyectado en un medio específico entre los distintos soportes asignados a ese medio.
+
+
+#### Exportar
+
+![Alt text](imagenes/03-02-02-realizar-exportar.png)
+
+Este botón te permite exportar toda la información relacionada con el "budget" a un archivo de Excel. Al hacer clic en él, se generará automáticamente un documento que incluye las proyecciones.
+
+
+#### Agregar Soporte a un Medio
+
+![Alt text](imagenes/03-02-03-realizar-agregar-soporte.png)
+
+Este botón abre un modal que presenta un listado de soportes disponibles específicos para el medio seleccionado.
+
+![Alt text](imagenes/03-02-03-realizar-agregar-soporte-guardar.png)
+
+Al presionarlo, los usuarios pueden navegar por este listado para identificar y seleccionar el soporte deseado que desean agregar a su proyección. Una vez hecho esto, deben confirmar su elección presionando el botón "Seleccionar" dentro del modal. 
+
+#### Eliminar Soporte a un Medio
+
+![Alt text](imagenes/03-02-04-realizar-eliminar-soporte.png)
+
+Este botón esta situado al lado de cada soporte listado, este botón permite a los usuarios remover un soporte específico de su proyección
+
+![Alt text](imagenes/03-02-04-realizar-eliminar-soporte-confirmar.png)
+
+Al presionarlo, se abre un modal de confirmación para asegurar que la eliminación es intencional.
+
+#### Columnas
+
+![Alt text](imagenes/03-02-05-manu-budget-realizar-columnas.png)
+
+Dentro de la cuadrícula de proyección de gestión de "budget", el ítem "Columnas" permite a los usuarios personalizar la visualización de datos al incluir o excluir columnas específicas. Entre las opciones disponibles, se encuentran las columnas (R)"Real" y (B)"Budget".
+
+
+#### Ingreso de Proyecciones
+
+![Alt text](imagenes/03-02-06-realizar-medio-soporte.png)
+
+El sistema permite el ingreso de proyecciones tanto por medio como por soporte:
+
+- Por Medio: Ingrese montos globales de inversión asignados a cada tipo de medio (ej. televisión, radio, digital).
+
+  Al ingresar proyecciones por medio, la selección de la distribución determina cómo se reparte la inversión entre los soportes asociados a ese medio:
+
+    ![Alt text](imagenes/03-02-06-01-distribucion.png)
+
+    - Equivalente: La inversión se divide por igual entre todos los soportes del medio.
+
+      ![Alt text](imagenes/03-02-06-01-distri-equivalente-select.png)
+
+      ![Alt text](imagenes/03-02-06-01-distri-equivalente-resultado.png)
+
+    - Porcentual: La inversión se distribuye entre los soportes según porcentajes específicos previamente asignados a cada soporte dentro del medio.
+
+      ![Alt text](imagenes/03-02-06-01-distri-porcentual-select.png)
+
+      ![Alt text](imagenes/03-02-06-01-distri-porcentual-resultado.png)
+
+
+- Por Soporte: Asigne inversiones a soportes específicos dentro de un medio para una planificación más detallada.
+
+  ![Alt text](imagenes/03-02-06-02-proyecion-soporte.png)
+
+##### Operadores 
+
+En la gestión de proyecciones tanto para medios como para soportes, se disponen de dos operadores clave que facilitan la planificación y distribución de la inversión a lo largo del tiempo:
+
+  - Operador ">" (Replicar): Al utilizar este operador junto a un valor ingresado para un mes específico, dicho valor se replicará automáticamente a todos los meses siguientes dentro del año de proyección.
+
+    ![Alt text](imagenes/03-02-06-03-operador-repeticion.png)
+
+    ![Alt text](imagenes/03-02-06-03-operador-repeticion-resultado.png)
+
+
+  - Operador "/" (Dividir): Este operador divide el valor ingresado para un mes entre todos los meses restantes del período de proyección, incluyendo el mes en curso. 
+
+    ![Alt text](imagenes/03-02-06-03-operador-divisor.png)
+
+    ![Alt text](imagenes/03-02-06-03-operador-divisor-resultado.png)
+
+
+
+
+<!---### Aprobar
 
 ### Consolidar
-
+-->
 ## Proyectados
 ![Alt text](imagenes/04-00-menu-proyectar.png)
 
+En la sección, los usuarios tienen la oportunidad de llevar a cabo la proyección de la inversión. Este paso es crucial que permite a los equipos detallar y ajustar las expectativas de inversión por cliente, medio y soporte.
 
-### Metas
+![Alt text](imagenes/04-00-proyectar-realizar.png)
+
+A continuación, describimos cada sección del contenido del realizar 'proyeccion'.
+
+#### Filtros
+
+##### Periodo
+
+![Alt text](imagenes/03-02-01-realizar-filtro-periodo.png)
+
+Este filtro te permite cambiar el perído de análisis de las proyecciones.
+
+##### Version
+
+![Alt text](imagenes/03-02-01-realizar-filtro-version.png)
+
+Este filtro te permite alternar entre distintas versiones de las proyecciones realizadas. Al utilizarlo, podrás comparar diferentes escenarios o revisiones de tus datos, facilitando el análisis de cómo han evolucionado tus proyecciones a lo largo del tiempo.
+
+##### Clientes
+
+![Alt text](imagenes/03-02-01-realizar-filtro-clientes.png)
+
+Este filtro te permite seleccionar un cliente específico de tu cartera. 
+
+
+##### Medios
+
+![Alt text](imagenes/03-02-01-realizar-filtro-medio.png)
+
+Este filtro te permite realizar una selección múltiple de los medios asignados a los clientes en tu cartera.
+
+##### Mes
+
+![Alt text](imagenes/03-02-01-realizar-filtro-medio.png)
+
+Este filtro te permite seleccionar uno o varios meses específicos para que solo aparezcan en la cuadrícula de proyección.
+
+##### Columnas
+
+![Alt text](imagenes/04-01-filtro-columna.png)
+
+El filtro de columnas permite a los usuarios personalizar la visualización de la cuadrícula de proyección seleccionando específicamente qué columnas desean ver.
+
+##### Distribución
+
+![Alt text](imagenes/03-02-01-realizar-filtro-distribucion.png)
+
+Este filtro te permite definir cómo se distribuye el valor proyectado en un medio específico entre los distintos soportes asignados a ese medio.
+
+
+#### Exportar
+
+![Alt text](imagenes/03-02-02-realizar-exportar.png)
+
+Este botón te permite exportar toda la información relacionada con el "budget" a un archivo de Excel. Al hacer clic en él, se generará automáticamente un documento que incluye las proyecciones.
+
+
+#### Agregar Soporte a un Medio
+
+![Alt text](imagenes/03-02-03-realizar-agregar-soporte.png)
+
+Este botón abre un modal que presenta un listado de soportes disponibles específicos para el medio seleccionado.
+
+![Alt text](imagenes/03-02-03-realizar-agregar-soporte-guardar.png)
+
+Al presionarlo, los usuarios pueden navegar por este listado para identificar y seleccionar el soporte deseado que desean agregar a su proyección. Una vez hecho esto, deben confirmar su elección presionando el botón "Seleccionar" dentro del modal. 
+
+#### Eliminar Soporte a un Medio
+
+![Alt text](imagenes/03-02-04-realizar-eliminar-soporte.png)
+
+Este botón esta situado al lado de cada soporte listado, este botón permite a los usuarios remover un soporte específico de su proyección
+
+![Alt text](imagenes/03-02-04-realizar-eliminar-soporte-confirmar.png)
+
+Al presionarlo, se abre un modal de confirmación para asegurar que la eliminación es intencional.
+
+#### Columnas
+
+![Alt text](imagenes/04-02-05-proyeccion-realizar-columnas.png)
+
+Dentro de la cuadrícula de proyección de gestión de "proyectado", el ítem "Columnas" permite a los usuarios personalizar la visualización de datos al incluir o excluir columnas específicas. Entre las opciones disponibles, se encuentran las columnas (R)"Real", (B)"Budget", (P)"Proyectado".
+
+
+#### Ingreso de Proyecciones
+
+![Alt text](imagenes/03-02-06-realizar-medio-soporte.png)
+
+El sistema permite el ingreso de proyecciones tanto por medio como por soporte:
+
+- Por Medio: Ingrese montos globales de inversión asignados a cada tipo de medio (ej. televisión, radio, digital).
+
+  Al ingresar proyecciones por medio, la selección de la distribución determina cómo se reparte la inversión entre los soportes asociados a ese medio:
+
+    ![Alt text](imagenes/03-02-06-01-distribucion.png)
+
+    - Equivalente: La inversión se divide por igual entre todos los soportes del medio.
+
+      ![Alt text](imagenes/03-02-06-01-distri-equivalente-select.png)
+
+      ![Alt text](imagenes/03-02-06-01-distri-equivalente-resultado.png)
+
+    - Porcentual: La inversión se distribuye entre los soportes según porcentajes específicos previamente asignados a cada soporte dentro del medio.
+
+      ![Alt text](imagenes/03-02-06-01-distri-porcentual-select.png)
+
+      ![Alt text](imagenes/03-02-06-01-distri-porcentual-resultado.png)
+
+
+- Por Soporte: Asigne inversiones a soportes específicos dentro de un medio para una planificación más detallada.
+
+  ![Alt text](imagenes/03-02-06-02-proyecion-soporte.png)
+
+##### Operadores 
+
+En la gestión de proyecciones tanto para medios como para soportes, se disponen de dos operadores clave que facilitan la planificación y distribución de la inversión a lo largo del tiempo:
+
+  - Operador ">" (Replicar): Al utilizar este operador junto a un valor ingresado para un mes específico, dicho valor se replicará automáticamente a todos los meses siguientes dentro del año de proyección.
+
+    ![Alt text](imagenes/03-02-06-03-operador-repeticion.png)
+
+    ![Alt text](imagenes/03-02-06-03-operador-repeticion-resultado.png)
+
+
+  - Operador "/" (Dividir): Este operador divide el valor ingresado para un mes entre todos los meses restantes del período de proyección, incluyendo el mes en curso. 
+
+    ![Alt text](imagenes/03-02-06-03-operador-divisor.png)
+
+    ![Alt text](imagenes/03-02-06-03-operador-divisor-resultado.png)
+
+
+<!--### Metas-->
 
 ### Realizar
 
-### Aprobar
+<!--### Aprobar
 
-### Consolidar
+### Consolidar-->
 
 ## Mejor Proyectado
 ![Alt text](imagenes/05-00-menu-mejor-proyectado.png)
 
+En la sección, permite a los usuarios realizar ajustes mensuales a las proyecciones para reflejar el escenario más favorable dentro del período actual. 
 
-### Metas
+![Alt text](imagenes/04-00-proyectar-realizar.png)
+
+A continuación, describimos cada sección del contenido del realizar 'mejor proyectado'.
+
+#### Filtros
+
+##### Periodo
+
+![Alt text](imagenes/03-02-01-realizar-filtro-periodo.png)
+
+Este filtro te permite cambiar el perído de análisis de las proyecciones.
+
+##### Version
+
+![Alt text](imagenes/03-02-01-realizar-filtro-version.png)
+
+Este filtro te permite alternar entre distintas versiones de las proyecciones realizadas. Al utilizarlo, podrás comparar diferentes escenarios o revisiones de tus datos, facilitando el análisis de cómo han evolucionado tus proyecciones a lo largo del tiempo.
+
+##### Clientes
+
+![Alt text](imagenes/03-02-01-realizar-filtro-clientes.png)
+
+Este filtro te permite seleccionar un cliente específico de tu cartera. 
+
+
+##### Medios
+
+![Alt text](imagenes/03-02-01-realizar-filtro-medio.png)
+
+Este filtro te permite realizar una selección múltiple de los medios asignados a los clientes en tu cartera.
+
+##### Mes
+
+![Alt text](imagenes/03-02-01-realizar-filtro-medio.png)
+
+Este filtro te permite seleccionar uno o varios meses específicos para que solo aparezcan en la cuadrícula de proyección.
+
+##### Columnas
+
+![Alt text](imagenes/04-01-filtro-columna.png)
+
+El filtro de columnas permite a los usuarios personalizar la visualización de la cuadrícula de proyección seleccionando específicamente qué columnas desean ver.
+
+##### Distribución
+
+![Alt text](imagenes/03-02-01-realizar-filtro-distribucion.png)
+
+Este filtro te permite definir cómo se distribuye el valor proyectado en un medio específico entre los distintos soportes asignados a ese medio.
+
+
+#### Exportar
+
+![Alt text](imagenes/03-02-02-realizar-exportar.png)
+
+Este botón te permite exportar toda la información relacionada con el "budget" a un archivo de Excel. Al hacer clic en él, se generará automáticamente un documento que incluye las proyecciones.
+
+
+#### Agregar Soporte a un Medio
+
+![Alt text](imagenes/03-02-03-realizar-agregar-soporte.png)
+
+Este botón abre un modal que presenta un listado de soportes disponibles específicos para el medio seleccionado.
+
+![Alt text](imagenes/03-02-03-realizar-agregar-soporte-guardar.png)
+
+Al presionarlo, los usuarios pueden navegar por este listado para identificar y seleccionar el soporte deseado que desean agregar a su proyección. Una vez hecho esto, deben confirmar su elección presionando el botón "Seleccionar" dentro del modal. 
+
+#### Eliminar Soporte a un Medio
+
+![Alt text](imagenes/03-02-04-realizar-eliminar-soporte.png)
+
+Este botón esta situado al lado de cada soporte listado, este botón permite a los usuarios remover un soporte específico de su proyección
+
+![Alt text](imagenes/03-02-04-realizar-eliminar-soporte-confirmar.png)
+
+Al presionarlo, se abre un modal de confirmación para asegurar que la eliminación es intencional.
+
+#### Columnas
+
+![Alt text](imagenes/05-02-05-mp-realizar-columnas.png)
+
+Dentro de la cuadrícula de proyección de gestión de "mejor proyectado", el ítem "Columnas" permite a los usuarios personalizar la visualización de datos al incluir o excluir columnas específicas. Entre las opciones disponibles, se encuentran las columnas (R)"Real", (B)"Budget", (MP)"Mejor Proyectado".
+
+
+#### Ingreso de Proyecciones
+
+![Alt text](imagenes/03-02-06-realizar-medio-soporte.png)
+
+El sistema permite el ingreso de proyecciones tanto por medio como por soporte:
+
+- Por Medio: Ingrese montos globales de inversión asignados a cada tipo de medio (ej. televisión, radio, digital).
+
+  Al ingresar proyecciones por medio, la selección de la distribución determina cómo se reparte la inversión entre los soportes asociados a ese medio:
+
+    ![Alt text](imagenes/03-02-06-01-distribucion.png)
+
+    - Equivalente: La inversión se divide por igual entre todos los soportes del medio.
+
+      ![Alt text](imagenes/03-02-06-01-distri-equivalente-select.png)
+
+      ![Alt text](imagenes/03-02-06-01-distri-equivalente-resultado.png)
+
+    - Porcentual: La inversión se distribuye entre los soportes según porcentajes específicos previamente asignados a cada soporte dentro del medio.
+
+      ![Alt text](imagenes/03-02-06-01-distri-porcentual-select.png)
+
+      ![Alt text](imagenes/03-02-06-01-distri-porcentual-resultado.png)
+
+
+- Por Soporte: Asigne inversiones a soportes específicos dentro de un medio para una planificación más detallada.
+
+  ![Alt text](imagenes/03-02-06-02-proyecion-soporte.png)
+
+<!--### Metas-->
 
 ### Realizar
 
-### Aprobar
+<!--### Aprobar
 
-### Consolidar
+### Consolidar-->
 
 ## Reportes
 
 ![Alt text](imagenes/06-00-menu-reportes.png)
 
 
-### Data
+<!--### Data
 
 ### BI
 
 ## Notificaciones
 
 
-## Reglas de Negocio
+## Reglas de Negocio-->
