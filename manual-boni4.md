@@ -450,6 +450,11 @@ En la gestión de proyecciones tanto para medios como para soportes, se disponen
 ## Proyectados
 ![Alt text](imagenes/04-00-menu-proyectar.png)
 
+<!--### Metas-->
+
+### Realizar
+
+
 En la sección, los usuarios tienen la oportunidad de llevar a cabo la proyección de la inversión. Este paso es crucial que permite a los equipos detallar y ajustar las expectativas de inversión por cliente, medio y soporte.
 
 ![Alt text](imagenes/04-00-proyectar-realizar.png)
@@ -582,17 +587,16 @@ En la gestión de proyecciones tanto para medios como para soportes, se disponen
 
     ![Alt text](imagenes/03-02-06-03-operador-divisor-resultado.png)
 
-
-<!--### Metas-->
-
-### Realizar
-
 <!--### Aprobar
 
 ### Consolidar-->
 
 ## Mejor Proyectado
 ![Alt text](imagenes/05-00-menu-mejor-proyectado.png)
+
+<!--### Metas-->
+
+### Realizar
 
 En la sección, permite a los usuarios realizar ajustes mensuales a las proyecciones para reflejar el escenario más favorable dentro del período actual. 
 
@@ -708,10 +712,6 @@ El sistema permite el ingreso de proyecciones tanto por medio como por soporte:
 - Por Soporte: Asigne inversiones a soportes específicos dentro de un medio para una planificación más detallada.
 
   ![Alt text](imagenes/03-02-06-02-proyecion-soporte.png)
-
-<!--### Metas-->
-
-### Realizar
 
 <!--### Aprobar
 
