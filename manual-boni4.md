@@ -316,48 +316,48 @@ Esto puede ser especialmente útil en casos tales como en los que MMS tiene carg
 
 En la sección, los usuarios tienen la oportunidad de llevar a cabo la proyección anual de la inversión para el próximo año. Este paso es crucial en el ciclo de planificación financiera y estratégica de la agencia, permitiendo a los equipos detallar y ajustar las expectativas de inversión por cliente, medio y soporte.
 
-![Alt text](imagenes/03-02-menu-budget-realizar.png)
+![Alt text](imagenes/03-02-menu-budget-realizar.png.png)
 
 A continuación, describimos cada sección del contenido del realizar 'budget'.
 
 #### Filtros
 
-##### Periodo
+  ##### Periodo
 
-![Alt text](imagenes/03-02-01-realizar-filtro-periodo.png)
+  ![Alt text](imagenes/03-02-01-realizar-filtro-periodo.png)
 
-Este filtro te permite cambiar el perído de análisis de las proyecciones.
+  Este filtro te permite cambiar el perído de análisis de las proyecciones.
 
-##### Version
+  ##### Version
 
-![Alt text](imagenes/03-02-01-realizar-filtro-version.png)
+  ![Alt text](imagenes/03-02-01-realizar-filtro-version.png)
 
-Este filtro te permite alternar entre distintas versiones de las proyecciones realizadas. Al utilizarlo, podrás comparar diferentes escenarios o revisiones de tus datos, facilitando el análisis de cómo han evolucionado tus proyecciones a lo largo del tiempo.
+  Este filtro te permite alternar entre distintas versiones de las proyecciones realizadas. Al utilizarlo, podrás comparar diferentes escenarios o revisiones de tus datos, facilitando el análisis de cómo han evolucionado tus proyecciones a lo largo del tiempo.
 
-##### Clientes
+  ##### Clientes
 
-![Alt text](imagenes/03-02-01-realizar-filtro-clientes.png)
+  ![Alt text](imagenes/03-02-01-realizar-filtro-clientes.png)
 
-Este filtro te permite seleccionar un cliente específico de tu cartera. 
+  Este filtro te permite seleccionar un cliente específico de tu cartera. 
 
 
-##### Medios
+  ##### Medios
 
-![Alt text](imagenes/03-02-01-realizar-filtro-medio.png)
+  ![Alt text](imagenes/03-02-01-realizar-filtro-medio.png)
 
-Este filtro te permite realizar una selección múltiple de los medios asignados a los clientes en tu cartera.
+  Este filtro te permite realizar una selección múltiple de los medios asignados a los clientes en tu cartera.
 
-##### Mes
+  ##### Mes
 
-![Alt text](imagenes/03-02-01-realizar-filtro-medio.png)
+  ![Alt text](imagenes/03-02-01-realizar-filtro-medio.png)
 
-Este filtro te permite seleccionar uno o varios meses específicos para que solo aparezcan en la cuadrícula de proyección.
+  Este filtro te permite seleccionar uno o varios meses específicos para que solo aparezcan en la cuadrícula de proyección.
 
-##### Distribución
+  ##### Distribución
 
-![Alt text](imagenes/03-02-01-realizar-filtro-distribucion.png)
+  ![Alt text](imagenes/03-02-01-realizar-filtro-distribucion.png)
 
-Este filtro te permite definir cómo se distribuye el valor proyectado en un medio específico entre los distintos soportes asignados a ese medio.
+  Este filtro te permite definir cómo se distribuye el valor proyectado en un medio específico entre los distintos soportes asignados a ese medio.
 
 
 #### Exportar
