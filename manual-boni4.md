@@ -458,55 +458,55 @@ A continuación, describimos cada sección del contenido del realizar 'proyeccio
 
 #### Filtros
 
-##### Periodo
+  ##### Periodo
 
-![Alt text](imagenes/03-02-01-realizar-filtro-periodo.png)
+  ![Alt text](imagenes/03-02-01-realizar-filtro-periodo.png)
 
-Este filtro te permite cambiar el perído de análisis de las proyecciones.
+  Este filtro te permite cambiar el perído de análisis de las proyecciones.
 
-##### Version
+  ##### Version
 
-![Alt text](imagenes/03-02-01-realizar-filtro-version.png)
+  ![Alt text](imagenes/03-02-01-realizar-filtro-version.png)
 
-Este filtro te permite alternar entre distintas versiones de las proyecciones realizadas. Al utilizarlo, podrás comparar diferentes escenarios o revisiones de tus datos, facilitando el análisis de cómo han evolucionado tus proyecciones a lo largo del tiempo.
+  Este filtro te permite alternar entre distintas versiones de las proyecciones realizadas. Al utilizarlo, podrás comparar diferentes escenarios o revisiones de tus datos, facilitando el análisis de cómo han evolucionado tus proyecciones a lo largo del tiempo.
 
-##### Clientes
+  ##### Clientes
 
-![Alt text](imagenes/03-02-01-realizar-filtro-clientes.png)
+  ![Alt text](imagenes/03-02-01-realizar-filtro-clientes.png)
 
-Este filtro te permite seleccionar un cliente específico de tu cartera. 
+  Este filtro te permite seleccionar un cliente específico de tu cartera. 
 
 
-##### Medios
+  ##### Medios
 
-![Alt text](imagenes/03-02-01-realizar-filtro-medio.png)
+  ![Alt text](imagenes/03-02-01-realizar-filtro-medio.png)
 
-Este filtro te permite realizar una selección múltiple de los medios asignados a los clientes en tu cartera.
+  Este filtro te permite realizar una selección múltiple de los medios asignados a los clientes en tu cartera.
 
-##### Mes
+  ##### Mes
 
-![Alt text](imagenes/03-02-01-realizar-filtro-medio.png)
+  ![Alt text](imagenes/03-02-01-realizar-filtro-medio.png)
 
-Este filtro te permite seleccionar uno o varios meses específicos para que solo aparezcan en la cuadrícula de proyección.
+  Este filtro te permite seleccionar uno o varios meses específicos para que solo aparezcan en la cuadrícula de proyección.
 
-##### Columnas
+  ##### Columnas
 
-![Alt text](imagenes/04-01-filtro-columna.png)
+  ![Alt text](imagenes/04-01-filtro-columna.png)
 
-El filtro de columnas permite a los usuarios personalizar la visualización de la cuadrícula de proyección seleccionando específicamente qué columnas desean ver.
+  El filtro de columnas permite a los usuarios personalizar la visualización de la cuadrícula de proyección seleccionando específicamente qué columnas desean ver.
 
-##### Distribución
+  ##### Distribución
 
-![Alt text](imagenes/03-02-01-realizar-filtro-distribucion.png)
+  ![Alt text](imagenes/03-02-01-realizar-filtro-distribucion.png)
 
-Este filtro te permite definir cómo se distribuye el valor proyectado en un medio específico entre los distintos soportes asignados a ese medio.
+  Este filtro te permite definir cómo se distribuye el valor proyectado en un medio específico entre los distintos soportes asignados a ese medio.
 
 
 #### Exportar
 
 ![Alt text](imagenes/03-02-02-realizar-exportar.png)
 
-Este botón te permite exportar toda la información relacionada con el "budget" a un archivo de Excel. Al hacer clic en él, se generará automáticamente un documento que incluye las proyecciones.
+Este botón te permite exportar toda la información relacionada con el "proyectado" a un archivo de Excel. Al hacer clic en él, se generará automáticamente un documento que incluye las proyecciones.
 
 
 #### Agregar Soporte a un Medio
@@ -602,55 +602,55 @@ A continuación, describimos cada sección del contenido del realizar 'mejor pro
 
 #### Filtros
 
-##### Periodo
+  ##### Periodo
 
-![Alt text](imagenes/03-02-01-realizar-filtro-periodo.png)
+  ![Alt text](imagenes/03-02-01-realizar-filtro-periodo.png)
 
-Este filtro te permite cambiar el perído de análisis de las proyecciones.
+  Este filtro te permite cambiar el perído de análisis de las proyecciones.
 
-##### Version
+  ##### Version
 
-![Alt text](imagenes/03-02-01-realizar-filtro-version.png)
+  ![Alt text](imagenes/03-02-01-realizar-filtro-version.png)
 
-Este filtro te permite alternar entre distintas versiones de las proyecciones realizadas. Al utilizarlo, podrás comparar diferentes escenarios o revisiones de tus datos, facilitando el análisis de cómo han evolucionado tus proyecciones a lo largo del tiempo.
+  Este filtro te permite alternar entre distintas versiones de las proyecciones realizadas. Al utilizarlo, podrás comparar diferentes escenarios o revisiones de tus datos, facilitando el análisis de cómo han evolucionado tus proyecciones a lo largo del tiempo.
 
-##### Clientes
+  ##### Clientes
 
-![Alt text](imagenes/03-02-01-realizar-filtro-clientes.png)
+  ![Alt text](imagenes/03-02-01-realizar-filtro-clientes.png)
 
-Este filtro te permite seleccionar un cliente específico de tu cartera. 
+  Este filtro te permite seleccionar un cliente específico de tu cartera. 
 
 
-##### Medios
+  ##### Medios
 
-![Alt text](imagenes/03-02-01-realizar-filtro-medio.png)
+  ![Alt text](imagenes/03-02-01-realizar-filtro-medio.png)
 
-Este filtro te permite realizar una selección múltiple de los medios asignados a los clientes en tu cartera.
+  Este filtro te permite realizar una selección múltiple de los medios asignados a los clientes en tu cartera.
 
-##### Mes
+  ##### Mes
 
-![Alt text](imagenes/03-02-01-realizar-filtro-medio.png)
+  ![Alt text](imagenes/03-02-01-realizar-filtro-medio.png)
 
-Este filtro te permite seleccionar uno o varios meses específicos para que solo aparezcan en la cuadrícula de proyección.
+  Este filtro te permite seleccionar uno o varios meses específicos para que solo aparezcan en la cuadrícula de proyección.
 
-##### Columnas
+  ##### Columnas
 
-![Alt text](imagenes/04-01-filtro-columna.png)
+  ![Alt text](imagenes/04-01-filtro-columna.png)
 
-El filtro de columnas permite a los usuarios personalizar la visualización de la cuadrícula de proyección seleccionando específicamente qué columnas desean ver.
+  El filtro de columnas permite a los usuarios personalizar la visualización de la cuadrícula de proyección seleccionando específicamente qué columnas desean ver.
 
-##### Distribución
+  ##### Distribución
 
-![Alt text](imagenes/03-02-01-realizar-filtro-distribucion.png)
+  ![Alt text](imagenes/03-02-01-realizar-filtro-distribucion.png)
 
-Este filtro te permite definir cómo se distribuye el valor proyectado en un medio específico entre los distintos soportes asignados a ese medio.
+  Este filtro te permite definir cómo se distribuye el valor proyectado en un medio específico entre los distintos soportes asignados a ese medio.
 
 
 #### Exportar
 
 ![Alt text](imagenes/03-02-02-realizar-exportar.png)
 
-Este botón te permite exportar toda la información relacionada con el "budget" a un archivo de Excel. Al hacer clic en él, se generará automáticamente un documento que incluye las proyecciones.
+Este botón te permite exportar toda la información relacionada con el "mejor proyectado" a un archivo de Excel. Al hacer clic en él, se generará automáticamente un documento que incluye las proyecciones.
 
 
 #### Agregar Soporte a un Medio
